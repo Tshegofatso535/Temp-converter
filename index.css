@@ -6,18 +6,32 @@
 }
 
 body{
-    background: navy;
-
+    background-image: url(image/dark-cloud.jpeg);
+    text-align: center;
+   box-sizing: border-box;
 }
 
 div{
-    height: 22.22vh;
+    height: 33.33vh;
 }
 
-input [type=number]{
+input[type=number]{
 
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
-    background-image: ;
+    color:aliceblue;
+    background-image: url(image/black-water.jpg);
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+}
+
+#fahrenheit{
+    border-top: 4px solid aliceblue;
+    border-bottom: 4px solid aliceblue;
+}
+
+::-ms-input-placeholder{
+    color: #3333;
 }
